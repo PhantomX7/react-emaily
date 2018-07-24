@@ -4,6 +4,8 @@ Simple email survey with sendgrid api
 npm install
 
 create dev.js inside client/config with:
+
+```
 module.exports = {
   googleClientID: ,
   googleClientSecret: ,
@@ -14,5 +16,6 @@ module.exports = {
   sendGridKey: ,
   redirectDomain: ,
 };
+```
 
 and npm run dev at the server path to start
